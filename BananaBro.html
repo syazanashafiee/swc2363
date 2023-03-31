@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BananaBro</title>
+	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+
+	<br>
+<img src="images-removebg-preview (2).png"  width="20" height="20" alt="logout"/><br>
+<a href="Home.html"><button class="logout">LOGOUT</button></a>
+
+<center>
+	<img src="banana bro logo.png" width="300" height="150" alt="bananabro"/><br><br>
+</center>
+	
+	
+	
+	<!--footer section-->
+<div class="footer">
+		
+	<style>
+
+li {
+  display: inline;
+}
+</style>
+	
+		
+  <ul>
+		<center>
+   <li><a href="BananaBro.html">HOME</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <li><a href="Contact.html">CONTACT</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <li><a href="About.html">ABOUT</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <li><a href="Menu.html">MENU</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <li><a href="products.php ">GRAB YOURS NOW!</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			</center>
+</ul>
+	
+	</div><br>
+	
+	<center>
+	<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="menuuu.jpg" width="450" height="241" alt="varuval"/>
+<div class="text">MUTTON VARUVAL</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="menuu.jpg" width="450" height="241" alt="chicken"/>
+<div class="text">CHICKEN 65</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="menu.jpg" width="450" height="241" alt="squid"/>
+<div class="text">SQUID RINGS</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+		
+	
+	<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</center>
+
+	
+<center><h1><p style="color:limegreen">About Us</p></h1></center><br>
+	
+
+	<center>
+<h4>Bananabro is your new favourite banana leaf restaurant that’s modern, authentic and best of all, perfect for get-togethers with your friends and family over fresh and hot meals with flavours that pack a punch!</h4><br>
+
+<h4>The age old culture of serving rice on banana leaf takes on a new direction at Bananabro without forgetting the very essence of the tradition. </h4><br>
+
+<h4>While we primarily focus on serving banana leaf meals, we pride ourselves in serving only fresh ingredients with intense flavours in generous amounts to satisfy your banana leaf needs.</h4><br>
+
+<h4>We use the freshest ingredients and do not cut corners.</h4><br>
+
+<h4>If it isn’t good enough to serve to our own families, we won’t serve it to our customers.<br><br>
+
+<h4>Taking inspiration from India’s streets, arts and cultures, Bananabro elevates your dining experience giving you a taste of its authentic southern region through modern and contemporary touches in our decor, dishes and drinks.</h4><br><br></center>
+
+<div class="menu-sign">
+<center>
+  <b>WE ARE HERE TO CATER TO THE THOSE WHO LOVE FOOD, AND AS MALAYSIANS WE ALL LOVE FOOD!</b><br>
+</center>
+</div>
+	
+	
+	
+	
+<center><h2><p style="color:limegreen">There's a HUGE opportunity to make banana leaf meals available throughout Malaysia</p></h2></center>
+	
+	<center>
+		<img src="bb.jpg" width="355" height="232" alt="bb"/>
+	</center>
+	
+	<center><h3><p style="color:limegreen">Out of 6,000 fast food franchise outlets in Malaysia, there’s only ONE ready-to-be-franchised Southern Indian F&B restaurant.</p></h3></center>
+	
+	<center><h4><p style="color:limegreen">That one is <b>BANANABRO</b></p></h4></center><br><br>
+	
+	
+  
+<!--footer section-->
+<div class="footer">
+	<center>2023 HTFU Restaurant Sdn Bhd (1252472-H)-All Right Reserved.</center>
+	</div>
+  
+
+</body>
+</html>
